@@ -15,5 +15,54 @@
     </style>
   </head>
 
-  <body></body>
+  <body>
+    <form>
+      <h1>Registrazione</h1>
+      <label for="register">Inserisci la tua Email</label>
+      <input type="email" placeholder="mariorossi@esempio.it">
+      <br>
+      <label for="password">Inserisci la tua password</label>
+      <input type="password">
+
+      <label for="Name">Inserisci il tuo nome</label>
+      <input type="text" name="Name"> 
+
+      <label for="surname">Inserisci il tuo cognome</label>
+      <input type="text" name="surname"> 
+
+      <label for="DateOfBirth">Inserisci la tua data di nascita</label>
+      <input type="date" name="DateOfBirth"> 
+
+      <label for="TelephoneNumber">Inserisci il tuo numero di telefono</label>
+      <input type="tel" name="TelephoneNumber" placeholder="+39" >
+
+      <label for="plans">Inserisci il tuo numero di telefono</label>
+      <select>
+        <option value="NoValue">Scegli una delle opzioni</option>
+        <option value="FreePlan">Piano gratuito </option>
+        <optgroup label="Piani a Pagamento">
+          <option value="PayPlan">Piano pagamento 150€</option>
+          <option value="PayPlan">Piano pagamento 200€</option>
+          <option value="PayPlan">Piano pagamento 250€</option>
+        </optgroup>
+      </select>
+      <label for="proPlan">Aderisci al piano pro
+        <input type="checkbox" name="proPlan">
+      </label>
+      <hr>
+      <label for="CreditCardNumber">Inserisci il numero della tua carta</label>
+      <input type="text" placeholder="0000 0000 0000 0000" name="CreditCardNumber">
+
+      <label for="CVC">Inserisci il tuo CVC</label>
+      <input type="text" maxlength="3" name="CVC">
+
+      <label for="ExpirationDate">Inserisci il tuo CVC</label>
+      <input type="month" y name="ExpirationDate">
+
+      <label for="BillingAddress">Inserisci il tuo indirizzo postale</label>
+      <input type="text" name="BillingAddress" maxlength="5">
+      
+      
+    </form>
+  </body>
 </html>
